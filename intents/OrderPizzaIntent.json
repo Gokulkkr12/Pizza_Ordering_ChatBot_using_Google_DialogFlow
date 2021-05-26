@@ -1,0 +1,97 @@
+{
+  "id": "dc0b2ea0-c7b6-477c-9c9a-518eec1aeffd",
+  "name": "OrderPizzaIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "91c2bc01-2594-46b3-a8fb-1fcda70ba979",
+          "name": "size",
+          "required": true,
+          "dataType": "@PizzaSize",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please tell me what size you need?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "2e66e4bb-c611-499f-924c-9c038d592565",
+          "name": "ingredient",
+          "required": true,
+          "dataType": "@PizzaIngredients",
+          "value": "$ingredient",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could you please tell me the ingredients on your pizza?"
+            },
+            {
+              "lang": "en",
+              "value": "Ingredients please?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e8c7c0f0-6ae7-45a0-895e-fdeb124877f2",
+          "name": "crust",
+          "required": true,
+          "dataType": "@PizzaCrustStyle",
+          "value": "$crust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Tell me what style you need? Regular or Thin?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hola! I am very glad to serve you a pizza."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

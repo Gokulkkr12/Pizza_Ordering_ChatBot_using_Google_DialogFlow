@@ -1,0 +1,54 @@
+[
+  {
+    "id": "18016484-51c8-4ec8-aaf4-91b4cf6b1305",
+    "data": [
+      {
+        "text": "Any new dishes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4664899c-05b2-4e74-8974-2fa6740c3376",
+    "data": [
+      {
+        "text": "What offers do I have today on pizzas",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c1d507c-b9d2-4913-b7c0-a6f9f8f5f3e5",
+    "data": [
+      {
+        "text": "Tell me todays special.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9296c4b-5ad5-4ceb-a5a9-d7a80ed6a31c",
+    "data": [
+      {
+        "text": "Any specials for this day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
